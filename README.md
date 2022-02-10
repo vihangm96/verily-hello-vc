@@ -6,6 +6,8 @@ Hello T9Hacks! Welcome to Verily's Introduction to Version Control talk. Today, 
 
 ## Clone this repo
 
+## Make a branch
+
 ## Make a commit
 
 ## Submit a pull request
