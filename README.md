@@ -45,16 +45,19 @@ Directions: https://docs.github.com/en/authentication/connecting-to-github-with-
 - `git status`
 - `git add .` (or `git add <file>`)
 - `git commit -m <something descriptive>`
+- `git push origin hello-vc`
+
+Click on link -> pull request with description.
 
 ## Resolve a merge conflict
 
-## Submit a pull request
-- (submission steps)
-- (CI/CD flow)
+TODO: figure out merge conflict steps.
 
 ## Find a friend to approve your pull request!
 
 ## Merge your PR
+
+(CI/CD)
 
 ## Extra credit
 - Create a private repo and add a friend to it.
