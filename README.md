@@ -54,7 +54,7 @@ Click on link -> pull request with description.
 
 ## Resolve a merge conflict
 
-TODO: figure out merge conflict steps.
+TODO: figure out merge conflict steps. (create a PR, then merge it, then create a PR that conflicts with that)
 
 ## Find a friend to approve your pull request!
 
