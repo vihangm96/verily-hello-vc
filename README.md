@@ -27,6 +27,15 @@ Git installation: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 
 ## Clone this repo locally
 
+Using SSH
+- Create a key if you don't have one. Screenshots:
+  - https://screenshot.googleplex.com/EN8ApWcsfWh3MmZ
+  - https://screenshot.googleplex.com/6Du2Lgm3QoTLexj
+Directions: https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+- Cat key to command line, then copy into box. Screenshot: https://screenshot.googleplex.com/7GnWYuhcAehYV4S
+- Test SSH connection: https://docs.github.com/en/authentication/connecting-to-github-with-ssh/testing-your-ssh-connection
+- Git clone: `git clone <>`. Screenshot: https://screenshot.googleplex.com/A2tYQba5BZw6ZYY
+
 ## Make a branch
 
 ## Make a commit
