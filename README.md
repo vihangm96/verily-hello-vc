@@ -8,7 +8,7 @@ Git installation: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 
 ## Make a repo
 
-<!-- TODO add screenshots -->
+TODO add screenshots
 
 1. Click on the plus icon in the upper right.
 2. Click on new repository.
@@ -36,6 +36,8 @@ Directions: https://docs.github.com/en/authentication/connecting-to-github-with-
 - Test SSH connection: https://docs.github.com/en/authentication/connecting-to-github-with-ssh/testing-your-ssh-connection
 - Git clone: `git clone <>`. Screenshot: https://screenshot.googleplex.com/A2tYQba5BZw6ZYY
 
+TODO intermission to discuss how version control works with cd'ing into .git directory.
+
 ## Make a branch
 - `cd verily-hello-vc`
 - `git checkout -b hello-vc` (creates a new branch and changes into it in one go)
@@ -62,3 +64,4 @@ TODO: figure out merge conflict steps.
 ## Extra credit
 - Create a private repo and add a friend to it.
 - Open source licensing link: <>
+- SSH crypto link: <>
