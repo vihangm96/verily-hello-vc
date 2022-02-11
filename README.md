@@ -44,6 +44,7 @@ TODO intermission to discuss how version control works with cd'ing into .git dir
 
 ## Make a commit
 - `touch hello.py`
+- add something to the file (hand out slips of paper with different messages)
 - `git status`
 - `git add .` (or `git add <file>`)
 - `git commit -m <something descriptive>`
