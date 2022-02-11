@@ -40,12 +40,12 @@ TODO intermission to discuss how version control works with cd'ing into .git dir
 
 ## Make a branch
 - `cd verily-hello-vc`
-- `git checkout -b hello-vc` (creates a new branch and changes into it in one go)
+- `git checkout -b hello-vc` (creates a new branch and changes into it in one go) (provide alternative with branch command first)
 
 ## Make a commit
 - `touch hello.py`
 - add something to the file (hand out slips of paper with different messages)
-- `git status`
+- `git status` (what this)
 - `git add .` (or `git add <file>`)
 - `git commit -m <something descriptive>`
 - `git push origin hello-vc`
