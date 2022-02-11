@@ -37,6 +37,8 @@ Directions: https://docs.github.com/en/authentication/connecting-to-github-with-
 - Git clone: `git clone <>`. Screenshot: https://screenshot.googleplex.com/A2tYQba5BZw6ZYY
 
 ## Make a branch
+- `cd verily-hello-vc`
+- `git checkout -b hello-vc` (creates a new branch and changes into it in one go)
 
 ## Make a commit
 
