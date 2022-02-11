@@ -40,7 +40,7 @@ TODO intermission to discuss how version control works with cd'ing into .git dir
 
 ## Make a branch
 - `cd verily-hello-vc`
-- `git checkout -b hello-vc` (creates a new branch and changes into it in one go) (provide alternative with branch command first)
+- `git checkout -b hello-vc-<yourfirstname>-<yourlastname>-<date of birth>` (creates a new branch and changes into it in one go) (provide alternative with branch command first)
 
 ## Make a commit
 - `touch hello.py`
@@ -51,10 +51,6 @@ TODO intermission to discuss how version control works with cd'ing into .git dir
 - `git push origin hello-vc`
 
 Click on link -> pull request with description.
-
-## Resolve a merge conflict
-
-TODO: figure out merge conflict steps. (create a PR, then merge it, then create a PR that conflicts with that)
 
 ## Find a friend to approve your pull request!
 
