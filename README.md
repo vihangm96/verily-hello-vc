@@ -41,6 +41,10 @@ Directions: https://docs.github.com/en/authentication/connecting-to-github-with-
 - `git checkout -b hello-vc` (creates a new branch and changes into it in one go)
 
 ## Make a commit
+- `touch hello.py`
+- `git status`
+- `git add .` (or `git add <file>`)
+- `git commit -m <something descriptive>`
 
 ## Resolve a merge conflict
 
