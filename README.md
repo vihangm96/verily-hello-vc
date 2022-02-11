@@ -62,6 +62,9 @@ TODO: figure out merge conflict steps. (create a PR, then merge it, then create 
 
 (CI/CD)
 
+## Cleanup
+- git branch -D and git pull
+
 ## Extra credit
 - Create a private repo and add a friend to it.
 - Open source licensing link: <>
