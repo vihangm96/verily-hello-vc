@@ -28,7 +28,7 @@ Git installation: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 **NOTE:** This section provides instruction on how to clone your repository with SSH. If that isn't working for you, feel free to clone with the HTTPS option instead. (Currently, SSH is considered best practice for security reasons.)
 
 - Click on the "Clone" button in the upper right corner of this repository, then choose the SSH option.
-![Screenshot of cloning.]("./images/EN8ApWcsfWh3MmZ.png")
+![Screenshot of cloning.](images/EN8ApWcsfWh3MmZ.png)
 - Create a key if you don't have one. To do this, start by going into your settings and clicking on "SSH and GPG keys". There should be an option to add a new key, which will take you to this page:
 ![Screenshot of new SSH key form.]("./images/6Du2Lgm3QoTLexj.png")
 From there, follow these directions to construct an SSH key: https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent. After you've generated a key locally, use the Linux `cat` command to output the file to your terminal. Copy the output and paste into the new SSH key box that we saw earlier.
