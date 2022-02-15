@@ -45,12 +45,17 @@ Go back to your command line and type `git clone `, then the link you copied. Yo
 
 One of the most powerful features that developing code with version control offers is the ability to try experiments on your code and save the results without making potentially disasterous changes to your production code. This ability is enabled via _branching_. In this section, we'll walk through creating a branch for code.
 
-- `cd verily-hello-vc`
-- `git checkout -b hello-vc-<yourfirstname>-<yourlastname>-<date of birth>` (creates a new branch and changes into it in one go) (provide alternative with branch command first)
+- If you haven't already, change directory into the repository you cloned using the `cd` command on the command line.
+- To create a branch, use the command `git branch <>` ... You can check it was created with ``.
+- To move into your code branch, use checkout ...
+
+**TIP:** You can combine the above two commands into one with the syntax `git checkout -b hello-vc-<branch name>`.
 
 ## Make a commit
+
+You can save changes to your code by making commits. Here is the process for doing so:
+
 - `touch hello.py`
-- add something to the file (hand out slips of paper with different messages)
 - `git status` (what this)
 - `git add .` (or `git add <file>`)
 - `git commit -m <something descriptive>`
@@ -65,7 +70,8 @@ Click on link -> pull request with description.
 (CI/CD)
 
 ## Cleanup
-- git branch -D and git pull
+
+To keep your local clone neat and tidy, you'll want to wrap up your development for the day with some cleanup. You can delete your working branch with the option -D (as in, `git branch -D <branch-name>`) and update your local clone using the `git pull` command, which pulls the latest code from the remote repository.
 
 ## Extra credit
 - How version control works: <>
