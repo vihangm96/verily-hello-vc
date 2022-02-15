@@ -65,6 +65,8 @@ Click on link -> pull request with description.
 
 ## Find a friend to approve your pull request!
 
+## Optional: resolve a merge conflict
+
 ## Merge your PR
 
 (CI/CD)
