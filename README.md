@@ -46,30 +46,37 @@ Go back to your command line and type `git clone `, then the link you copied. Yo
 One of the most powerful features that developing code with version control offers is the ability to try experiments on your code and save the results without making potentially disasterous changes to your production code. This ability is enabled via _branching_. In this section, we'll walk through creating a branch for code.
 
 - If you haven't already, change directory into the repository you cloned using the `cd` command on the command line.
-- To create a branch, use the command `git branch <>` ... You can check it was created with ``.
-- To move into your code branch, use checkout ...
+- To create a branch, use the command `git branch <your branch name>`. For the purposes of this talk, you'll want to name your branch in the format `<first name>-<last name>-<date of birth>`. You can check it was created by running the `git branch` command without any options and checking that the output contains the name of your branch.
+- To move into your code branch, you can use the command `git checkout <your branch name>`.
 
 **TIP:** You can combine the above two commands into one with the syntax `git checkout -b hello-vc-<branch name>`.
 
-## Make a commit
+## Make a commit and create a pull request
 
-You can save changes to your code by making commits. Here is the process for doing so:
+You can save changes to your code by making commits. Let's walk through a typical process of making a change and committing it. (Before you start, make sure you're still in the branch you created above!)
 
-- `touch hello.py`
-- `git status` (what this)
-- `git add .` (or `git add <file>`)
-- `git commit -m <something descriptive>`
-- `git push origin hello-vc`
-
-Click on link -> pull request with description.
+- Start by creating a new file, using `touch hello.py` or a command of your choice.
+- Using the command `git status`, you can see the new file you created and a notation of its status. "Untracked" indicates the addition of a new file. If instead you had chosen to change an already existing file (like the README), the file would be listed as "Modified".
+- To add all changed files to the list, use the command `git add .` If you only want to add a specific file to the commit, replace the `.` with the file name.
+- Next, you'll need to add the commit to your history. You can use the command `git commit -m <something descriptive>` for this.
+- Finally, you'll be able to create a pull request for your commit! The command is `git push origin <your branch name>`. You'll see a link in the terminal to create a pull request on Github. Follow the link and fill out the form.
 
 ## Find a friend to approve your pull request!
 
-## Optional: resolve a merge conflict
+Here at Verily, we very strongly believe in the concept of _two-party control_. The basic idea behind this is that no one person should be able to make a possibly devastating change to the codebase--instead, all changes must be approved by two parties. Version control enables this by implementing an approval mechanism; we'll walk you through how Github does this.
+
+1. Click on the upper right of your new pull request. You should see an option to request a review on the PR you just created. Turn to the person next to you and ask them for their Github username, then add them as an approver.
+2. When you get a pull request to approve, ...
 
 ## Merge your PR
 
 (CI/CD)
+
+## Optional: fix a commit that went wrong
+
+So far in this tutorial, we've mostly discussed the happy path: you code something cool, then submit it for review.
+
+## Optional: fix a merge conflict
 
 ## Cleanup
 
