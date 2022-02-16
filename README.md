@@ -61,20 +61,22 @@ You can save changes to your code by making commits. Let's walk through a typica
 - Next, you'll need to add the commit to your history. You can use the command `git commit -m <something descriptive>` for this.
 - Finally, you'll be able to create a pull request for your commit! The command is `git push origin <your branch name>`. You'll see a link in the terminal to create a pull request on Github. Follow the link and fill out the form.
 
+Congratulations, you've made a pull request!
+
 ## Fix a merge conflict
 
 So you've done the hard work to write the code for your latest, greatest invention. You create a pull request on Github--and then you meet with this nasty message:
 
---put picture here--
+![Screenshot of clone URL.](images/5cyixwPcFzQeput.png)
 
-What to do? One option would be to use the Github GUI to resolve the conflicts between your code and the code in the main repo.
+What to do? Today, we'll use the Github web interface to fix the merge conflict. (You can also fix the merge conflict from the command line.) Click on the big "Resolve conflicts" button. Update the code to the version you're looking to merge. (Be sure to remove the inequality signs before merging!) When you're done, click on "Mark as resolved", then "Commit merge".
 
 ## Find a friend to approve your pull request!
 
 Here at Verily, we very strongly believe in the concept of _two-party control_. The basic idea behind this is that no one person should be able to make a possibly devastating change to the codebase--instead, all changes must be approved by two parties. Version control enables this by implementing an approval mechanism; we'll walk you through how Github does this.
 
 1. Click on the upper right of your new pull request. You should see an option to request a review on the PR you just created. Turn to the person next to you and ask them for their Github username, then add them as an approver.
-2. When you get a pull request to approve, TODO figure this out at test run
+2. When you get a pull request to approve, **!TODO figure this out at test run**
 
 ## Merge your PR
 
@@ -91,4 +93,3 @@ To keep your local clone neat and tidy, you'll want to wrap up your development 
 ## Extra credit
 - How version control works: <https://git-scm.com/book/en/v2/Git-Internals-Plumbing-and-Porcelain>
 - Open source licensing link: <https://opensource.org/faq>
-- SSH crypto link: <>
