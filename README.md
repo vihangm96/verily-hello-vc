@@ -57,7 +57,8 @@ You can save changes to your code by making commits. Let's walk through a typica
 
 - Start by creating a new file, using `touch hello.py` or a command of your choice.
 - Using the command `git status`, you can see the new file you created and a notation of its status. "Untracked" indicates the addition of a new file. If instead you had chosen to change an already existing file (like the README), the file would be listed as "Modified".
-- To add all changed files to the list, use the command `git add .` If you only want to add a specific file to the commit, replace the `.` with the file name.
+- To add all changed files to the list, use the command `git add .` If you only want to add a specific file to the commit, replace the `.` with the file name
+- Use `git status` again and check what files are set to be added to the commit. If you've added something you don't want, this is an easy place to remove the undesired change from the commit (using the prompt from terminal output).
 - Next, you'll need to add the commit to your history. You can use the command `git commit -m <something descriptive>` for this.
 - Finally, you'll be able to create a pull request for your commit! The command is `git push origin <your branch name>`. You'll see a link in the terminal to create a pull request on Github. Follow the link and fill out the form.
 
@@ -85,6 +86,13 @@ Here at Verily, we very strongly believe in the concept of _two-party control_. 
 ## Optional: fix a commit that went wrong
 
 So far in this tutorial, we've mostly discussed the happy path: you code something cool, then submit it for review. But what happens if you submit a commit you don't want? Version control with git offers us a way to fix this issue!
+
+Prerequisite: creating a commit that you don't like.
+
+1. Run the command `git log` to print a list of all commits, then copy to clipboard the hash of the commit preceding the one you want to remove. Type `q` at the command prompt to return to your command line interface.
+2. There are a lot of ways to roll back commits you don't want; some of them are detailed at <https://stackoverflow.com/questions/4114095/how-do-i-revert-a-git-repository-to-a-previous-commit>. In this lesson, we're going to assume that you don't want your bad commit at all and that you never want to see it again.
+3. The command for completely wiping out your bad commit is `git reset --hard <hash-1>` where `<hash-1>` is the hash of the commit preceding the one you want to remove.
+4. If you've already pushed bad code to a pull request, you can use the force push option to push the branch with the bad commit removed to origin. The command is `git push -f origin <branch-name>`.
 
 ## Cleanup
 
