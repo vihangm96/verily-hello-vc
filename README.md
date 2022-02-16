@@ -25,7 +25,7 @@ If you want to utilize the benefits of version control, you'll need to start by 
 
 6. Click on "Create repository". You should be taken to the landing page of your repository.
 
-## Clone your repo locally
+## Clone this repo locally
 
 In this section, we'll show you how to pull this repo down locally so you can write the code in a more convenient environment than the web text editor.
 
