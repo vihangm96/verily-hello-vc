@@ -56,7 +56,7 @@ One of the most powerful features that developing code with version control offe
 You can save changes to your code by making commits. Let's walk through a typical process of making a change and committing it. (Before you start, make sure you're still in the branch you created above!)
 
 - Start by creating a new file, using `touch hello.py` or a command of your choice.
-- Add a print statement to the file, like `print("hello <your name>)`
+- Add a print statement to the file, like `print("hello <your name>")`.
 - Using the command `git status`, you can see the new file you created and a notation of its status. "Untracked" indicates the addition of a new file. If instead you had chosen to change an already existing file (like the README), the file would be listed as "Modified".
 - To add all changed files to the list, use the command `git add .` If you only want to add a specific file to the commit, replace the `.` with the file name
 - Use `git status` again and check what files are set to be added to the commit. If you've added something you don't want, this is an easy place to remove the undesired change from the commit (using the prompt from terminal output).
