@@ -8,7 +8,7 @@ Git installation: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 
 ## Make a repo
 
-If you want to utilize the benefits of version control, you'll need to start by creating a basic organizational unit for the software you want to write: a _repo_.
+If you want to utilize the benefits of version control, you'll need to start by creating a basic organizational unit for the software you want to write: a _repo_ or _repository_.
 
 1. Click on the plus icon in the upper right of any page on GitHub.
 2. Click on "New repository".
@@ -61,12 +61,20 @@ You can save changes to your code by making commits. Let's walk through a typica
 - Next, you'll need to add the commit to your history. You can use the command `git commit -m <something descriptive>` for this.
 - Finally, you'll be able to create a pull request for your commit! The command is `git push origin <your branch name>`. You'll see a link in the terminal to create a pull request on Github. Follow the link and fill out the form.
 
+## Fix a merge conflict
+
+So you've done the hard work to write the code for your latest, greatest invention. You create a pull request on Github--and then you meet with this nasty message:
+
+--put picture here--
+
+What to do? One option would be to use the Github GUI to resolve the conflicts between your code and the code in the main repo.
+
 ## Find a friend to approve your pull request!
 
 Here at Verily, we very strongly believe in the concept of _two-party control_. The basic idea behind this is that no one person should be able to make a possibly devastating change to the codebase--instead, all changes must be approved by two parties. Version control enables this by implementing an approval mechanism; we'll walk you through how Github does this.
 
 1. Click on the upper right of your new pull request. You should see an option to request a review on the PR you just created. Turn to the person next to you and ask them for their Github username, then add them as an approver.
-2. When you get a pull request to approve, ...
+2. When you get a pull request to approve, TODO figure this out at test run
 
 ## Merge your PR
 
@@ -74,9 +82,7 @@ Here at Verily, we very strongly believe in the concept of _two-party control_. 
 
 ## Optional: fix a commit that went wrong
 
-So far in this tutorial, we've mostly discussed the happy path: you code something cool, then submit it for review.
-
-## Optional: fix a merge conflict
+So far in this tutorial, we've mostly discussed the happy path: you code something cool, then submit it for review. But what happens if you submit a commit you don't want? Version control with git offers us a way to fix this issue!
 
 ## Cleanup
 
