@@ -6,6 +6,8 @@ Hello T9Hacks! Welcome to Verily's Introduction to Version Control talk. Today, 
 
 Git installation: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 
+We also need to add you as a collaborator to the Github project.
+
 ## Make a repo
 
 If you want to utilize the benefits of version control, you'll need to start by creating a basic organizational unit for the software you want to write: a _repo_ or _repository_.
