@@ -8,38 +8,6 @@ Git installation: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 
 We also need to add you as a collaborator to the Github project.
 
-## B. Make a repo
-
-If you want to utilize the benefits of version control, you'll need to start by creating a basic organizational unit for the software you want to write: a _repo_ or _repository_.
-
-1. Click on the plus icon in the upper right of any page on GitHub.
-
-![image](https://user-images.githubusercontent.com/3752732/154401309-4fdd89f2-92fa-4114-9645-e69a16ddf93a.png)
-
-2. Click on "New repository".
-
-![image](https://user-images.githubusercontent.com/3752732/154401413-c1f01cf8-eebc-4af9-8f5b-19f187566c8c.png)
-
-3. Pick a repository name and add a description.
-
-**NOTE:** Remember to make your repository name short, concise, and descriptive. You'll thank yourself later!
-
-4. Pick a privacy setting (recommended to pick 'Public' for this activity).
-
-![image](https://user-images.githubusercontent.com/3752732/154401713-0fba0d1a-5478-4acf-b715-d23d63aa609e.png)
-
-5. Initialize the repo.
-
-  - Add a README -- this provides space for documenting what your code will do.
-  - Add a `.gitignore` file, with the "Python" template option -- `.gitignore` can help prevent you from accidentally committing files you didn't want to.
-  - Open source licensing is optional for this activity. We've added a link to the [extra credit section](#extra-credit) if you'd like to learn more.
-
-![image](https://user-images.githubusercontent.com/3752732/154402081-40298b15-03d6-46d7-afa9-e08005e4453c.png)
-
-6. Click on "Create repository". You should be taken to the landing page of your repository.
-
-![image](https://user-images.githubusercontent.com/3752732/154402231-8e99a778-9c69-4c54-9fa7-e34997342026.png)
-
 ## C. Clone this repo locally
 
 We're now going to move to issues that may arise when you contribute to other people's repositories.
