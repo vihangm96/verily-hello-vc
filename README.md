@@ -2,13 +2,13 @@
 
 Hello T9Hacks! Welcome to Verily's Introduction to Version Control talk. Today, we'll be walking you through the basics of how to use Github for Version control.
 
-## Prerequisite: Sign up for a Github account and install Git
+## A. Prerequisite: Sign up for a Github account and install Git
 
 Git installation: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 
 We also need to add you as a collaborator to the Github project.
 
-## Make a repo
+## B. Make a repo
 
 If you want to utilize the benefits of version control, you'll need to start by creating a basic organizational unit for the software you want to write: a _repo_ or _repository_.
 
@@ -40,7 +40,7 @@ If you want to utilize the benefits of version control, you'll need to start by 
 
 ![image](https://user-images.githubusercontent.com/3752732/154402231-8e99a778-9c69-4c54-9fa7-e34997342026.png)
 
-## Clone this repo locally
+## C. Clone this repo locally
 
 In this section, we'll show you how to pull this repo down locally so you can write the code in a more convenient environment than the web text editor.
 
@@ -64,7 +64,7 @@ In this section, we'll show you how to pull this repo down locally so you can wr
 
 7. Go back to your command line and type `git clone `, then the link you copied. You should be able to see this repo cloned into your home directory (or anywhere you choose to place it).
 
-## Make a branch
+## D. Make a branch
 
 One of the most powerful features that developing code with version control offers is the ability to try experiments on your code and save the results without making potentially disasterous changes to your production code. This ability is enabled via _branching_. In this section, we'll walk through creating a branch for code.
 
@@ -74,7 +74,7 @@ One of the most powerful features that developing code with version control offe
 
 **TIP:** You can combine the above two commands into one with the syntax `git checkout -b hello-vc-<branch name>`.
 
-## Make a commit and create a pull request
+## E. Make a commit and create a pull request
 
 You can save changes to your code by making commits. Let's walk through a typical process of making a change and committing it. (Before you start, make sure you're still in the branch you created above!)
 
@@ -88,7 +88,7 @@ You can save changes to your code by making commits. Let's walk through a typica
 
 Congratulations, you've made a pull request!
 
-## Fix a merge conflict
+## F. Fix a merge conflict
 
 So you've done the hard work to write the code for your latest, greatest invention. You create a pull request on Github--and then you meet with this nasty message:
 
@@ -96,18 +96,18 @@ So you've done the hard work to write the code for your latest, greatest inventi
 
 What to do? Today, we'll use the Github web interface to fix the merge conflict. (You can also fix the merge conflict from the command line.) Click on the big "Resolve conflicts" button. Update the code to the version you're looking to merge. (Be sure to remove the inequality signs before merging!) When you're done, click on "Mark as resolved", then "Commit merge".
 
-## Find a friend to approve your pull request!
+## G. Find a friend to approve your pull request!
 
 Here at Verily, we very strongly believe in the concept of _two-party control_. The basic idea behind this is that no one person should be able to make a possibly devastating change to the codebase--instead, all changes must be approved by two parties. Version control enables this by implementing an approval mechanism; we'll walk you through how Github does this.
 
 1. Click on the upper right of your new pull request. You should see an option to request a review on the PR you just created. Turn to the person next to you and ask them for their Github username, then add them as an approver.
 2. When you get a pull request to approve, **!TODO figure this out at test run**
 
-## Merge your PR
+## H. Merge your PR
 
 (CI/CD)
 
-## Optional: fix a commit that went wrong
+## I. Optional: fix a commit that went wrong
 
 So far in this tutorial, we've mostly discussed the happy path: you code something cool, then submit it for review. But what happens if you submit a commit you don't want? Version control with git offers us a way to fix this issue!
 
@@ -118,10 +118,10 @@ Prerequisite: creating a commit that you don't like.
 3. The command for completely wiping out your bad commit is `git reset --hard <hash-1>` where `<hash-1>` is the hash of the commit preceding the one you want to remove.
 4. If you've already pushed bad code to a pull request, you can use the force push option to push the branch with the bad commit removed to origin. The command is `git push -f origin <branch-name>`.
 
-## Cleanup
+## J. Cleanup
 
 To keep your local clone neat and tidy, you'll want to wrap up your development for the day with some cleanup. You can delete your working branch with the option -D (as in, `git branch -D <branch-name>`) and update your local clone using the `git pull` command, which pulls the latest code from the remote repository.
 
-## Extra credit
+## K. Extra credit
 - How version control works: <https://git-scm.com/book/en/v2/Git-Internals-Plumbing-and-Porcelain>
 - Open source licensing link: <https://opensource.org/faq>
