@@ -42,6 +42,8 @@ If you want to utilize the benefits of version control, you'll need to start by 
 
 ## C. Clone this repo locally
 
+We're now going to move to issues that may arise when you contribute to other people's repositories.
+
 In this section, we'll show you how to pull this repo down locally so you can write the code in a more convenient environment than the web text editor.
 
 > **NOTE:** 
@@ -86,7 +88,9 @@ Your public key has been saved in /home/jdimatteo/.ssh/id_ed25519.pub
 
 8. Follow these directions to test your SSH connection: https://docs.github.com/en/authentication/connecting-to-github-with-ssh/testing-your-ssh-connection
 
-9. Finally, you can clone the repo locally with ssh! Go back to the main page of your new repository (if you are having trouble finding it, click [Your repositories](https://user-images.githubusercontent.com/3752732/154408379-c6d2c9c5-9b9e-4140-83e5-f3958f4b57c1.png)), Click on the "Clone" button in the upper right corner of your newly created repository, then choose the SSH option, then click the copy to clipboard button, like this:
+9. Finally, you can clone the repo locally with ssh! Go back to the main page of this repository (if you are having trouble finding it, click [Your repositories](https://user-images.githubusercontent.com/3752732/154408379-c6d2c9c5-9b9e-4140-83e5-f3958f4b57c1.png)) and click on the Fork button. This creates a new repo that you own.
+
+10. Click on the "Clone" button in the upper right corner of your newly created repository, then choose the SSH option, then click the copy to clipboard button, like this:
 
 ![image](https://user-images.githubusercontent.com/3752732/154408715-d6b88db5-e738-4e73-8768-eabab5bccee6.png)
 
