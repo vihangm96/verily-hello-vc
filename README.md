@@ -98,11 +98,11 @@ Your public key has been saved in /home/jdimatteo/.ssh/id_ed25519.pub
 
 One of the most powerful features that developing code with version control offers is the ability to try experiments on your code and save the results without making potentially disasterous changes to your production code. This ability is enabled via _branching_. In this section, we'll walk through creating a branch for code.
 
-- If you haven't already, change directory into the repository you cloned using the `cd` command on the command line.
-- To create a branch, use the command `git branch <your branch name>`. For the purposes of this talk, you'll want to name your branch in the format `<first name>-<last name>-<date of birth>`. You can check it was created by running the `git branch` command without any options and checking that the output contains the name of your branch.
-- To move into your code branch, you can use the command `git checkout <your branch name>`.
+1. If you haven't already, change directory into the repository you cloned using the `cd` command on the command line.
+2. To create a branch, use the command `git branch <your branch name>`. You can check it was created by running the `git branch` command without any options and checking that the output contains the name of your branch.
+3. To move into your code branch, you can use the command `git checkout <your branch name>`.
 
-**TIP:** You can combine the above two commands into one with the syntax `git checkout -b hello-vc-<branch name>`.
+**TIP:** You can combine the above two commands into one with the syntax `git checkout -b <your branch name>`.
 
 ## E. Make a commit and create a pull request
 
