@@ -47,10 +47,10 @@ In this section, we'll show you how to pull this repo down locally so you can wr
 > **NOTE:** 
 > * This section provides instruction on how to clone your repository with SSH.
 >   * If that isn't working for you, feel free to clone with the HTTPS option instead.
->   * SSH is considered best practice for security reasons, and once configured it is very convienent in practice too!
+>   * SSH is considered best practice for security reasons, and once configured it is very convenient in practice too!
 > * If you already have an ssh key configured with your GitHub account, skip ahead to step 10 below.
 
-1. [Create your ssh key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent), e.g. open a command line (with terminal on Linux and MacOS oror Git Bash on Windows) and run `ssh-keygen -t ed25519` while accepting all the defaults by hitting the enter key at each prompt as shown below:
+1. [Create your ssh key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent), e.g. open a command line (with terminal on Linux and MacOS or Git Bash on Windows) and run `ssh-keygen -t ed25519` while accepting all the defaults by hitting the enter key at each prompt as shown below:
 
 ```
 $ ssh-keygen -t ed25519
