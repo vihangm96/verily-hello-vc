@@ -108,15 +108,29 @@ One of the most powerful features that developing code with version control offe
 
 You can save changes to your code by making commits. Let's walk through a typical process of making a change and committing it. (Before you start, make sure you're still in the branch you created above!)
 
-- Start by creating a new file, using `touch hello.py` or a command of your choice.
-- Add a print statement to the file, like `print("hello <your name>")`.
-- Using the command `git status`, you can see the new file you created and a notation of its status. "Untracked" indicates the addition of a new file. If instead you had chosen to change an already existing file (like the README), the file would be listed as "Modified".
-- To add all changed files to the list, use the command `git add .` If you only want to add a specific file to the commit, replace the `.` with the file name
-- Use `git status` again and check what files are set to be added to the commit. If you've added something you don't want, this is an easy place to remove the undesired change from the commit (using the prompt from terminal output).
-- Next, you'll need to add the commit to your history. You can use the command `git commit -m <something descriptive>` for this.
-- Finally, you'll be able to create a pull request for your commit! The command is `git push origin <your branch name>`. You'll see a link in the terminal to create a pull request on Github. Follow the link and fill out the form.
+1. Start by creating a new file, using `touch hello.py` or a command / text editor of your choice.
 
-Congratulations, you've made a pull request!
+2. Add a print statement to the file, like `print("hello <your name>")`.
+
+3. Using the command `git status`, you can see the new file you created and a notation of its status, e.g.
+
+![image](https://user-images.githubusercontent.com/3752732/154410602-9cf48f2a-cf3c-42f9-a900-1f6f63c467e4.png)
+
+- "Untracked" indicates the addition of a new file. If instead you had chosen to change an already existing file (like the README), the file would be listed as "Modified".
+
+4. To add all changed files to the list, use the command `git add .` If you only want to add a specific file to the commit, replace the `.` with the file name
+
+5. Use `git status` again and check what files are set to be added to the commit. If you've added something you don't want, this is an easy place to remove the undesired change from the commit (using the prompt from terminal output).
+
+![image](https://user-images.githubusercontent.com/3752732/154410708-2ae51945-a7fe-44af-b260-bf159fad84a6.png)
+
+6. Next, you'll need to add the commit to your history. You can use the command `git commit -m "<something descriptive>"` for this.
+
+7. Finally, you'll be able to create a pull request for your commit! The command is `git push origin <your branch name>`. You'll see a link in the terminal to create a pull request on Github. Follow the link and fill out the form.
+
+![image](https://user-images.githubusercontent.com/3752732/154410438-a902e18a-d992-46a8-a20d-7ef375b7bbc5.png)
+
+*Congratulations, you've made a pull request!*
 
 ## F. Fix a merge conflict
 
