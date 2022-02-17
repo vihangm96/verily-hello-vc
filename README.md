@@ -46,15 +46,23 @@ In this section, we'll show you how to pull this repo down locally so you can wr
 
 **NOTE:** This section provides instruction on how to clone your repository with SSH. If that isn't working for you, feel free to clone with the HTTPS option instead. (SSH is considered best practice for security reasons, and once configured it is more convienent in practice too!)
 
-- Click on the "Clone" button in the upper right corner of your newly created repository, then choose the SSH option.
+1. Click on the "Clone" button in the upper right corner of your newly created repository, then choose the SSH option.
+
 ![Screenshot of cloning.](images/EN8ApWcsfWh3MmZ.png)
-- Create a key if you don't have one. To do this, start by going into your settings and clicking on "SSH and GPG keys". There should be an option to add a new key, which will take you to this page:
-![Screenshot of new SSH key form.](images/6Du2Lgm3QoTLexj.png)
-From there, follow these directions to construct an SSH key: https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent. After you've generated a key locally, use the Linux `cat` command to output the file to your terminal. Copy the output and paste into the new SSH key box that we saw earlier.
-- Follow these directions to test your SSH connection: https://docs.github.com/en/authentication/connecting-to-github-with-ssh/testing-your-ssh-connection
-- Finally, you can clone the repo locally! Go back to the main page of this repository and copy the SSH clone link, like this:
+
+2. Create a key if you don't have one. To do this, start by going into your settings and clicking on "SSH and GPG keys". There should be an option to add a new key, which will take you to this page: ![Screenshot of new SSH key form.](images/6Du2Lgm3QoTLexj.png)
+
+3. From there, follow these directions to construct an SSH key: https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent.
+
+4. After you've generated a key locally, use the Linux `cat` command to output the file to your terminal. Copy the output and paste into the new SSH key box that we saw earlier.
+
+5. Follow these directions to test your SSH connection: https://docs.github.com/en/authentication/connecting-to-github-with-ssh/testing-your-ssh-connection
+
+6. Finally, you can clone the repo locally! Go back to the main page of this repository and copy the SSH clone link, like this:
+
 ![Screenshot of clone URL.](images/A2tYQba5BZw6ZYY.png)
-Go back to your command line and type `git clone `, then the link you copied. You should be able to see this repo cloned into your home directory (or anywhere you choose to place it).
+
+7. Go back to your command line and type `git clone `, then the link you copied. You should be able to see this repo cloned into your home directory (or anywhere you choose to place it).
 
 ## Make a branch
 
