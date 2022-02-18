@@ -8,7 +8,13 @@ Git installation: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 
 We also need to add you as a collaborator to the Github project.
 
-## C. Clone this repo locally
+## B. Fork the Repo
+
+1. Go to https://github.com/KilimAnnejaro/verily-hello-vc ([t.ly/ZqjP](https://t.ly/ZqjP)).
+
+2. 
+
+todo(Annie): update this section
 
 We're now going to move to issues that may arise when you contribute to other people's repositories.
 
@@ -66,7 +72,7 @@ Your public key has been saved in /home/jdimatteo/.ssh/id_ed25519.pub
 
 11. You should now be able to see this repo cloned into your home directory (or anywhere you choose to place it).
 
-## D. Make a branch
+todo(Annie): below used to be section "C. Make a branch" -- should we delete this section?
 
 One of the most powerful features that developing code with version control offers is the ability to try experiments on your code and save the results without making potentially disasterous changes to your production code. This ability is enabled via _branching_. In this section, we'll walk through creating a branch for code.
 
@@ -76,7 +82,7 @@ One of the most powerful features that developing code with version control offe
 
 **TIP:** You can combine the above two commands into one with the syntax `git checkout -b <your branch name>`.
 
-## E. Make a commit and create a pull request
+## C. Make a commit and create a pull request
 
 You can save changes to your code by making commits. Let's walk through a typical process of making a change and committing it. (Before you start, make sure you're still in the branch you created above!)
 
