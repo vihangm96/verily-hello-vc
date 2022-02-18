@@ -80,30 +80,17 @@ All of us will add to this file, what our favorite module is, e.g.
 
 ## D. Conflicts
 
-1. Watch demo on resolving a conflict on someone's PR.
+Some of you will encounter conflicts:
 
-Resolve your conflict.
+1. Conflicts look like this:
 
-## F. Fix a merge conflict
+![image](https://user-images.githubusercontent.com/3752732/154773203-625f67f2-d108-4c47-b94b-06d411d1b9d8.png)
 
-So you've done the hard work to write the code for your latest, greatest invention. You create a pull request on Github--and then you meet with this nasty message:
+2. Resolve your conflicts inline:
 
-![Screenshot of clone URL.](images/5cyixwPcFzQeput.png)
+![image](https://user-images.githubusercontent.com/3752732/154773247-69256fb2-87a4-4e5d-b8f4-4e5ba393c209.png)
 
-What to do? Today, we'll use the Github web interface to fix the merge conflict. (You can also fix the merge conflict from the command line.) Click on the big "Resolve conflicts" button. Update the code to the version you're looking to merge. (Be sure to remove the inequality signs before merging!) When you're done, click on "Mark as resolved", then "Commit merge".
-
-## G. Find a friend to approve your pull request!
-
-Here at Verily, we very strongly believe in the concept of _two-party control_. The basic idea behind this is that no one person should be able to make a possibly devastating change to the codebase--instead, all changes must be approved by two parties. Version control enables this by implementing an approval mechanism; we'll walk you through how Github does this.
-
-1. Click on the upper right of your new pull request. You should see an option to request a review on the PR you just created. Turn to the person next to you and ask them for their Github username, then add them as an approver.
-2. When you get a pull request to approve, **!TODO figure this out at test run**
-
-## H. Merge your PR
-
-(CI/CD)
-
-## I. Optional: fix a commit that went wrong
+## E. Optional: fix a commit that went wrong
 
 So far in this tutorial, we've mostly discussed the happy path: you code something cool, then submit it for review. But what happens if you submit a commit you don't want? Version control with git offers us a way to fix this issue!
 
@@ -114,10 +101,10 @@ Prerequisite: creating a commit that you don't like.
 3. The command for completely wiping out your bad commit is `git reset --hard <hash-1>` where `<hash-1>` is the hash of the commit preceding the one you want to remove.
 4. If you've already pushed bad code to a pull request, you can use the force push option to push the branch with the bad commit removed to origin. The command is `git push -f origin <branch-name>`.
 
-## J. Cleanup
+## F. Cleanup
 
 To keep your local clone neat and tidy, you'll want to wrap up your development for the day with some cleanup. You can delete your working branch with the option -D (as in, `git branch -D <branch-name>`) and update your local clone using the `git pull` command, which pulls the latest code from the remote repository.
 
-## K. Extra credit
+## J. Extra credit
 - How version control works: <https://git-scm.com/book/en/v2/Git-Internals-Plumbing-and-Porcelain>
 - Open source licensing link: <https://opensource.org/faq>
