@@ -12,7 +12,15 @@ We also need to add you as a collaborator to the Github project.
 
 1. Go to https://github.com/KilimAnnejaro/verily-hello-vc ([t.ly/ZqjP](https://t.ly/ZqjP)).
 
-2. 
+2. Click the fork button in the top right
+
+![image](https://user-images.githubusercontent.com/3752732/154769938-56171260-59c6-45ec-a1bd-a5ff1caebfce.png)
+
+3. Wait until fork completes
+
+![image](https://user-images.githubusercontent.com/3752732/154769926-ede99504-1401-4735-8618-0dc5dee39a9b.png)
+
+4. 
 
 todo(Annie): update this section
 
