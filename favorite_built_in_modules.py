@@ -21,6 +21,7 @@
 import datetime
 import math
 import os
+import array
 
 
 def main():
@@ -32,6 +33,7 @@ def main():
     print("John DiMatteo likes datetime:", datetime.__doc__)
     print("Foo likes math:", math.__doc__)
     print("Vihang likes os")
+    print("Foo also likes array")
 
 
 if __name__ == "__main__":
