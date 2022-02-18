@@ -8,7 +8,7 @@ Git installation: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 
 We also need to add you as a collaborator to the Github project.
 
-## B. Fork the Repo
+## B. Fork the Repo and Create a Pull Request
 
 1. Go to https://github.com/KilimAnnejaro/verily-hello-vc ([t.ly/ZqjP](https://t.ly/ZqjP)).
 
@@ -20,103 +20,69 @@ We also need to add you as a collaborator to the Github project.
 
 ![image](https://user-images.githubusercontent.com/3752732/154769926-ede99504-1401-4735-8618-0dc5dee39a9b.png)
 
-4. 
+4. Click `favorite_built_in_modules.py`
 
-todo(Annie): update this section
+![image](https://user-images.githubusercontent.com/3752732/154770639-cf908545-27fd-47fc-b5b0-cb66f1e9c78e.png)
 
-We're now going to move to issues that may arise when you contribute to other people's repositories.
+5. Click the edit button
 
-In this section, we'll show you how to pull this repo down locally so you can write the code in a more convenient environment than the web text editor.
+![image](https://user-images.githubusercontent.com/3752732/154770729-2a52ad14-eee5-40af-bfc3-9f6c96add60e.png)
 
-> **NOTE:** 
-> * This section provides instruction on how to clone your repository with SSH.
->   * If that isn't working for you, feel free to clone with the HTTPS option instead.
->   * SSH is considered best practice for security reasons, and once configured it is very convenient in practice too!
-> * If you already have an ssh key configured with your GitHub account, skip ahead to step 10 below.
+6. Make your changes
 
-1. [Create your ssh key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent), e.g. open a command line (with terminal on Linux and MacOS or Git Bash on Windows) and run `ssh-keygen -t ed25519` while accepting all the defaults by hitting the enter key at each prompt as shown below:
+Just for an example, lets pretend we wanted to share our favorite python built in modules with a program like this.
 
-```
-$ ssh-keygen -t ed25519
-Generating public/private ed25519 key pair.
-Enter file in which to save the key (/home/jdimatteo/.ssh/id_ed25519): 
-Enter passphrase (empty for no passphrase): 
-Enter same passphrase again: 
-Your identification has been saved in /home/jdimatteo/.ssh/id_ed25519
-Your public key has been saved in /home/jdimatteo/.ssh/id_ed25519.pub
-```
+All of us will add to this file, what our favorite module is, e.g.
 
-2. Copy your **public** key to the clipboard, e.g. back on the command line run `cat ~/.ssh/id_ed25519.pub` then select the printed line and copy it to your clipboard (CTRL-SHIFT-C on Linux and Windows or CMD-C on MacOS). The text should be a long line starting with `ssh-ed25519`. Paste this text to  After you've generated a key locally, use the Linux `cat` command to output the file to your terminal.
+![image](https://user-images.githubusercontent.com/3752732/154771299-e7f0cddb-b715-4308-9794-22b3153f93b0.png)
 
-3. Open your [GitHub user settings](https://github.com/settings/profile)
+7. Add a commit message
 
-![image](https://user-images.githubusercontent.com/3752732/154405056-d9683886-7f9b-49fd-bd6f-983eaf75f498.png)
+![image](https://user-images.githubusercontent.com/3752732/154771346-87fe1ad2-2287-4181-a672-14bc18de60ca.png)
 
-4. Drill down to [SSH and GPG keys](https://github.com/settings/keys)
+8. Commit directly to your fork's main branch
 
-![image](https://user-images.githubusercontent.com/3752732/154405195-5e092bd7-3511-487b-99c6-2d2ce1817b1f.png)
+![image](https://user-images.githubusercontent.com/3752732/154771652-8a9cdb0d-5f8c-4043-bb4c-c0e9d3b850bc.png)
 
-5. Click [New SSH key](https://github.com/settings/ssh/new)
+9. Click "Commit changes"
 
-![image](https://user-images.githubusercontent.com/3752732/154405268-3a8ba4fa-4bd2-4708-82ab-4535a52bdc06.png)
+![image](https://user-images.githubusercontent.com/3752732/154771665-119b9b65-6e34-413d-ac6d-5de3dd3b028d.png)
 
-6. Paste your public key (copied to the clipboard in step #2) to the "Key" text box:
+10. Go back to the original repository
 
-![image](https://user-images.githubusercontent.com/3752732/154407383-de2ff24f-6ea8-48ad-8e7e-4f477f53bcbd.png)
+![image](https://user-images.githubusercontent.com/3752732/154771703-fd6e8243-6256-448f-bc51-39d66ca9eda1.png)
 
-7. Click "Add SSH Key"
+11. Click "Compare & pull request"
 
-![image](https://user-images.githubusercontent.com/3752732/154407488-32385a1d-6d29-4d43-bf21-e43586a1c100.png)
+ ![image](https://user-images.githubusercontent.com/3752732/154771736-96ce3f1f-d217-4f3b-9132-8f6e587b01d4.png)
 
-8. Follow these directions to test your SSH connection: https://docs.github.com/en/authentication/connecting-to-github-with-ssh/testing-your-ssh-connection
+12. Click "Create pull request"
 
-9. Finally, you can clone the repo locally with ssh! Go back to the main page of this repository (if you are having trouble finding it, click [Your repositories](https://user-images.githubusercontent.com/3752732/154408379-c6d2c9c5-9b9e-4140-83e5-f3958f4b57c1.png)) and click on the Fork button. This creates a new repo that you own.
+![image](https://user-images.githubusercontent.com/3752732/154771790-1c45cb8c-dce9-4c10-80e3-42dddfe43d69.png)
 
-10. Click on the "Clone" button in the upper right corner of your newly created repository, then choose the SSH option, then click the copy to clipboard button, like this:
+## C. Code Review
 
-![image](https://user-images.githubusercontent.com/3752732/154408715-d6b88db5-e738-4e73-8768-eabab5bccee6.png)
+1. Find a buddy to review each other's code.
 
-10. Go back to your command line and type `git clone ` followed by pasting your clipboard (CTRL-SHIFT-V on Linux and Windows or CMD-V on MacOS).
+2. Ask your buddy to open the pull request
 
-11. You should now be able to see this repo cloned into your home directory (or anywhere you choose to place it).
+![image](https://user-images.githubusercontent.com/3752732/154772146-009552f1-32dc-4d71-9c67-6bd625f0ea38.png)
 
-todo(Annie): below used to be section "C. Make a branch" -- should we delete this section?
+3. Click "Files changed" then "Review changes"
 
-One of the most powerful features that developing code with version control offers is the ability to try experiments on your code and save the results without making potentially disasterous changes to your production code. This ability is enabled via _branching_. In this section, we'll walk through creating a branch for code.
+![image](https://user-images.githubusercontent.com/3752732/154772209-1f27f5b7-8ca8-449c-9de7-b79f026c7de9.png)
 
-1. If you haven't already, change directory into the repository you cloned using the `cd` command on the command line.
-2. To create a branch, use the command `git branch <your branch name>`. You can check it was created by running the `git branch` command without any options and checking that the output contains the name of your branch.
-3. To move into your code branch, you can use the command `git checkout <your branch name>`.
+4. Write a message then click "Submit review"
 
-**TIP:** You can combine the above two commands into one with the syntax `git checkout -b <your branch name>`.
+![image](https://user-images.githubusercontent.com/3752732/154772263-31889fe5-3a34-4242-9455-f4c46f610c44.png)
 
-## C. Make a commit and create a pull request
+5. Once reviewed, ask Annie or John to merge the PR
 
-You can save changes to your code by making commits. Let's walk through a typical process of making a change and committing it. (Before you start, make sure you're still in the branch you created above!)
+## D. Conflicts
 
-1. Start by creating a new file, using `touch hello.py` or a command / text editor of your choice.
+1. Watch demo on resolving a conflict on someone's PR.
 
-2. Add a print statement to the file, like `print("hello <your name>")`.
-
-3. Using the command `git status`, you can see the new file you created and a notation of its status, e.g.
-
-![image](https://user-images.githubusercontent.com/3752732/154410602-9cf48f2a-cf3c-42f9-a900-1f6f63c467e4.png)
-
-- "Untracked" indicates the addition of a new file. If instead you had chosen to change an already existing file (like the README), the file would be listed as "Modified".
-
-4. To add all changed files to the list, use the command `git add .` If you only want to add a specific file to the commit, replace the `.` with the file name
-
-5. Use `git status` again and check what files are set to be added to the commit. If you've added something you don't want, this is an easy place to remove the undesired change from the commit (using the prompt from terminal output).
-
-![image](https://user-images.githubusercontent.com/3752732/154410708-2ae51945-a7fe-44af-b260-bf159fad84a6.png)
-
-6. Next, you'll need to add the commit to your history. You can use the command `git commit -m "<something descriptive>"` for this.
-
-7. Finally, you'll be able to create a pull request for your commit! The command is `git push origin <your branch name>`. You'll see a link in the terminal to create a pull request on Github. Follow the link and fill out the form.
-
-![image](https://user-images.githubusercontent.com/3752732/154410438-a902e18a-d992-46a8-a20d-7ef375b7bbc5.png)
-
-*Congratulations, you've made a pull request!*
+Resolve your conflict.
 
 ## F. Fix a merge conflict
 
