@@ -21,6 +21,8 @@
 import datetime
 import math
 import os
+import array
+import sqlite3
 
 
 def main():
@@ -32,6 +34,7 @@ def main():
     print("John DiMatteo likes datetime:", datetime.__doc__)
     print("Foo likes math:", math.__doc__)
     print("Vihang likes os")
+    print("Foo also likes array and sqlite3")
 
 
 if __name__ == "__main__":
