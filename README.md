@@ -2,67 +2,11 @@
 
 Hello T9Hacks! Welcome to Verily's Introduction to Version Control talk. Today, we'll be walking you through the basics of how to use Github for Version control.
 
-## Prerequisite: Sign up for a Github account and install Git
+## A. Prerequisite: Sign up for a Github account and install Git
 
 Git installation: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 
 We also need to add you as a collaborator to the Github project.
-
-## A. Setup SSH and Fork Repo 
-
-In this section, we'll show you how to pull this repo down locally so you can write the code in a more convenient environment than the web text editor.
-
-> **NOTE:** 
-> * This section provides instruction on how to clone your repository with SSH.
->   * If that isn't working for you, feel free to clone with the HTTPS option instead.
->   * SSH is considered best practice for security reasons, and once configured it is very convenient in practice too!
-> * If you already have an ssh key configured with your GitHub account, skip ahead to step 10 below.
-
-1. [Create your ssh key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent), e.g. open a command line (with terminal on Linux and MacOS or Git Bash on Windows) and run `ssh-keygen -t ed25519` while accepting all the defaults by hitting the enter key at each prompt as shown below:
-
-```
-$ ssh-keygen -t ed25519
-Generating public/private ed25519 key pair.
-Enter file in which to save the key (/home/jdimatteo/.ssh/id_ed25519): 
-Enter passphrase (empty for no passphrase): 
-Enter same passphrase again: 
-Your identification has been saved in /home/jdimatteo/.ssh/id_ed25519
-Your public key has been saved in /home/jdimatteo/.ssh/id_ed25519.pub
-```
-
-2. Copy your **public** key to the clipboard, e.g. back on the command line run `cat ~/.ssh/id_ed25519.pub` then select the printed line and copy it to your clipboard (CTRL-SHIFT-C on Linux and Windows or CMD-C on MacOS). The text should be a long line starting with `ssh-ed25519`. Paste this text to  After you've generated a key locally, use the Linux `cat` command to output the file to your terminal.
-
-3. Open your [GitHub user settings](https://github.com/settings/profile)
-
-![image](https://user-images.githubusercontent.com/3752732/154405056-d9683886-7f9b-49fd-bd6f-983eaf75f498.png)
-
-4. Drill down to [SSH and GPG keys](https://github.com/settings/keys)
-
-![image](https://user-images.githubusercontent.com/3752732/154405195-5e092bd7-3511-487b-99c6-2d2ce1817b1f.png)
-
-5. Click [New SSH key](https://github.com/settings/ssh/new)
-
-![image](https://user-images.githubusercontent.com/3752732/154405268-3a8ba4fa-4bd2-4708-82ab-4535a52bdc06.png)
-
-6. Paste your public key (copied to the clipboard in step #2) to the "Key" text box:
-
-![image](https://user-images.githubusercontent.com/3752732/154407383-de2ff24f-6ea8-48ad-8e7e-4f477f53bcbd.png)
-
-7. Click "Add SSH Key"
-
-![image](https://user-images.githubusercontent.com/3752732/154407488-32385a1d-6d29-4d43-bf21-e43586a1c100.png)
-
-8. Follow these directions to test your SSH connection: https://docs.github.com/en/authentication/connecting-to-github-with-ssh/testing-your-ssh-connection
-
-9. Finally, you can clone the repo locally with ssh! Go back to the main page of this repository (if you are having trouble finding it, click [Your repositories](https://user-images.githubusercontent.com/3752732/154408379-c6d2c9c5-9b9e-4140-83e5-f3958f4b57c1.png)) and click on the Fork button. This creates a new repo that you own.
-
-10. Click on the "Clone" button in the upper right corner of your newly created repository, then choose the SSH option, then click the copy to clipboard button, like this:
-
-![image](https://user-images.githubusercontent.com/3752732/154408715-d6b88db5-e738-4e73-8768-eabab5bccee6.png)
-
-10. Go back to your command line and type `git clone ` followed by pasting your clipboard (CTRL-SHIFT-V on Linux and Windows or CMD-V on MacOS).
-
-11. You should now be able to see this repo cloned into your home directory (or anywhere you choose to place it).
 
 ## B. Fork the Repo and Create a Pull Request
 
