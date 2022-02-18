@@ -19,7 +19,6 @@
 #
 ###############################################################################
 import datetime
-import math
 
 
 def main():
@@ -29,7 +28,6 @@ def main():
     #
     ###########################################################################
     print("John DiMatteo likes datetime:", datetime.__doc__)
-    print("Foo likes math:", math.__doc__)
 
 
 if __name__ == "__main__":
